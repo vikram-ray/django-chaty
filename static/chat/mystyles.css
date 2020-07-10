@@ -1,3 +1,20 @@
-body {
-    text-align: center;
+
+.container {
+    margin-top: 1rem;
 }
+
+.btn {
+    margin-top: 5px;
+}
+
+.chat-log {
+    display: inline-block;
+    min-width: 80%;
+    min-height: 30rem;
+    max-height: 30rem;
+    overflow-y: scroll;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
